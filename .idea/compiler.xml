@@ -7,11 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="rabbit-mq-producer" />
-        <module name="rabbit-mq" />
+        <module name="rabbit-mq-consumer" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="rabbit-mq" target="1.8" />
+      <module name="rabbit-mq-consumer" target="1.8" />
       <module name="rabbit-mq-producer" target="1.8" />
     </bytecodeTargetLevel>
   </component>
