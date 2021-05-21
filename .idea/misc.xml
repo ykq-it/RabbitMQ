@@ -4,7 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/rabbit-mq/pom.xml" />
-        <option value="$PROJECT_DIR$/rabbit-mq-producer/pom.xml" />
+        <option value="$PROJECT_DIR$/rabbit-mq-consumer/pom.xml" />
       </list>
     </option>
   </component>
