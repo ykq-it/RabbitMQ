@@ -4,7 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42a9643f-27c9-4276-95b1-2ef7b712c308" name="Default Changelist" comment="" />
+    <list default="true" id="42a9643f-27c9-4276-95b1-2ef7b712c308" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/RabbitConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-consumer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/ykq/RabbitmqProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/ykq/RabbitmqProducerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/ykq/demo/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/ykq/demo/Constant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/ykq/demo/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/ykq/demo/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-producer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-producer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-producer/src/test/java/com/ykq/RabbitmqProducerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-producer/src/test/java/com/ykq/RabbitmqProducerApplicationTests.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +74,7 @@
       <recent name="com.ykq.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.RabbitmqConsumerApplication">
+  <component name="RunManager" selected="JUnit.RabbitmqProducerApplicationTests.send">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -91,6 +102,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RabbitmqProducerApplicationTests.send2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ykq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ykq" />
+      <option name="MAIN_CLASS_NAME" value="com.ykq.RabbitmqProducerApplicationTests" />
+      <option name="METHOD_NAME" value="send2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqProducerApplicationTests.send3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ykq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ykq" />
+      <option name="MAIN_CLASS_NAME" value="com.ykq.RabbitmqProducerApplicationTests" />
+      <option name="METHOD_NAME" value="send3" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqProducerApplicationTests.send4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ykq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ykq" />
+      <option name="MAIN_CLASS_NAME" value="com.ykq.RabbitmqProducerApplicationTests" />
+      <option name="METHOD_NAME" value="send4" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RabbitmqProducerApplicationTests.send5" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ykq.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ykq" />
+      <option name="MAIN_CLASS_NAME" value="com.ykq.RabbitmqProducerApplicationTests" />
+      <option name="METHOD_NAME" value="send5" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RabbitmqConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="rabbitmq-consumer" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ykq.RabbitmqConsumerApplication" />
@@ -108,6 +183,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RabbitmqProducerApplicationTests.send" />
+        <item itemvalue="JUnit.RabbitmqProducerApplicationTests.send5" />
+        <item itemvalue="JUnit.RabbitmqProducerApplicationTests.send4" />
+        <item itemvalue="JUnit.RabbitmqProducerApplicationTests.send3" />
+        <item itemvalue="JUnit.RabbitmqProducerApplicationTests.send2" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +198,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621825001371</updated>
-      <workItem from="1621825002625" duration="4736000" />
+      <workItem from="1621825002625" duration="7728000" />
+      <workItem from="1621919699523" duration="3236000" />
+      <workItem from="1621930478463" duration="10651000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1621854373294</created>
@@ -134,6 +215,18 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <option name="LAST_COMMIT_MESSAGE" value="init" />
@@ -147,14 +240,29 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/RabbitConfig.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/rabbitmq-producer/src/test/java/com/ykq/RabbitmqProducerApplicationTests.java</url>
-          <line>15</line>
-          <option name="timeStamp" value="7" />
+          <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="20" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
