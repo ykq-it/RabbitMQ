@@ -16,7 +16,14 @@ class RabbitmqProducerApplicationTests {
 
     @Test
     void send() {
-        producer.sender("123");
+//        for (int i = 0; i < 60; i++) {
+            producer.sender("123");
+//            try {
+//                Thread.sleep(1000);
+//            } catch (InterruptedException e) {
+//                e.printStackTrace();
+//            }
+//        }
     }
 
     @Test

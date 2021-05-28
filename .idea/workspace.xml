@@ -5,16 +5,79 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42a9643f-27c9-4276-95b1-2ef7b712c308" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/ykq/demo/ConfirmCallback.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/ykq/demo/RabbitConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/ykq/web/ProducerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/ykq/web/RabbitSender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rabbitmq-producer/src/test/java/com/ykq/demo/RabbitSenderTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Constant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/RabbitConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/ykq/RabbitmqProducerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/ykq/RabbitmqProducerApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/ykq/demo/Constant.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/ykq/demo/Constant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/ykq/demo/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/ykq/demo/Producer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq-producer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-producer/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq-producer/src/test/java/com/ykq/RabbitmqProducerApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-producer/src/test/java/com/ykq/RabbitmqProducerApplicationTests.java" afterDir="false" />
+    </list>
+    <list id="72e835f2-8a72-4672-89ab-77494925170f" name="ignore" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_datatype_jackson_datatype_jsr310_2_11_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jayway_jsonpath_json_path_2_4_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_rabbitmq_amqp_client_5_9_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vaadin_external_google_android_json_0_0_20131108_vaadin1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_micrometer_micrometer_core_1_5_9.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_18.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_accessors_smart_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_minidev_json_smart_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_13_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_16_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_library_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_12.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_latencyutils_LatencyUtils_2_0_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_ow2_asm_asm_5_0_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_skyscreamer_jsonassert_1_5_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jul_to_slf4j_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_30.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_amqp_2_2_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_2_2_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_amqp_spring_rabbit_test_2_2_13_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_actuator_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_autoconfigure_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_actuator_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_amqp_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_json_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_logging_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_test_autoconfigure_2_3_7_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_retry_spring_retry_1_2_5_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_2_12_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xmlunit_xmlunit_core_2_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_yaml_snakeyaml_1_26.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +87,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JUnit4 Test Class" />
         <option value="Class" />
       </list>
     </option>
@@ -57,6 +121,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -66,15 +131,43 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.ykq.demo" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ykq.demo" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.RabbitmqProducerApplicationTests.send">
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://localhost:8082/tx" />
+          <option name="urlPath" value="" />
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.RabbitSenderTest.sendTxQueue">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -82,6 +175,25 @@
         </value>
       </option>
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="generated-requests#21" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="21" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="RabbitSenderTest.sendTxQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rabbitmq-producer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ykq.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ykq.demo" />
+      <option name="MAIN_CLASS_NAME" value="com.ykq.demo.RabbitSenderTest" />
+      <option name="METHOD_NAME" value="sendTxQueue" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -102,7 +214,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RabbitmqProducerApplicationTests.send2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RabbitmqProducerApplicationTests.send1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rabbitmq-producer" />
       <extension name="coverage">
         <pattern>
@@ -112,39 +224,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.ykq" />
       <option name="MAIN_CLASS_NAME" value="com.ykq.RabbitmqProducerApplicationTests" />
-      <option name="METHOD_NAME" value="send2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RabbitmqProducerApplicationTests.send3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rabbitmq-producer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ykq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ykq" />
-      <option name="MAIN_CLASS_NAME" value="com.ykq.RabbitmqProducerApplicationTests" />
-      <option name="METHOD_NAME" value="send3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RabbitmqProducerApplicationTests.send4" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rabbitmq-producer" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ykq.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.ykq" />
-      <option name="MAIN_CLASS_NAME" value="com.ykq.RabbitmqProducerApplicationTests" />
-      <option name="METHOD_NAME" value="send4" />
+      <option name="METHOD_NAME" value="send1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -180,13 +260,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="HTTP Request.generated-requests#21" />
+      <item itemvalue="JUnit.RabbitmqProducerApplicationTests.send" />
+      <item itemvalue="JUnit.RabbitmqProducerApplicationTests.send1" />
+      <item itemvalue="JUnit.RabbitmqProducerApplicationTests.send5" />
+      <item itemvalue="JUnit.RabbitSenderTest.sendTxQueue" />
+      <item itemvalue="Spring Boot.RabbitmqConsumerApplication" />
+      <item itemvalue="Spring Boot.RabbitmqProducerApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="HTTP Request.generated-requests#21" />
+        <item itemvalue="JUnit.RabbitSenderTest.sendTxQueue" />
         <item itemvalue="JUnit.RabbitmqProducerApplicationTests.send" />
+        <item itemvalue="JUnit.RabbitmqProducerApplicationTests.send1" />
         <item itemvalue="JUnit.RabbitmqProducerApplicationTests.send5" />
-        <item itemvalue="JUnit.RabbitmqProducerApplicationTests.send4" />
-        <item itemvalue="JUnit.RabbitmqProducerApplicationTests.send3" />
-        <item itemvalue="JUnit.RabbitmqProducerApplicationTests.send2" />
       </list>
     </recent_temporary>
   </component>
@@ -194,13 +283,16 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="42a9643f-27c9-4276-95b1-2ef7b712c308" name="Default Changelist" comment="" />
+      <changelist id="72e835f2-8a72-4672-89ab-77494925170f" name="ignore" comment="" />
       <created>1621825001371</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1621825001371</updated>
       <workItem from="1621825002625" duration="7728000" />
       <workItem from="1621919699523" duration="3236000" />
-      <workItem from="1621930478463" duration="10651000" />
+      <workItem from="1621930478463" duration="11616000" />
+      <workItem from="1621995376341" duration="9614000" />
+      <workItem from="1622081535563" duration="21682000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1621854373294</created>
@@ -209,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621854373294</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="单播、多波、头、话题交换机的demo与特性，延迟投递、TTL、死信队列的验证">
+      <created>1621994736417</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621994736417</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,40 +328,71 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="单播、多波、头、话题交换机的demo与特性，延迟投递、TTL、死信队列的验证" />
+    <option name="LAST_COMMIT_MESSAGE" value="单播、多波、头、话题交换机的demo与特性，延迟投递、TTL、死信队列的验证" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java</url>
-          <line>30</line>
+          <line>47</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java</url>
-          <line>40</line>
+          <line>57</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java</url>
-          <line>36</line>
+          <line>53</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/ykq/demo/ConfirmCallback.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="20" />
+          <line>39</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-producer/src/test/java/com/ykq/RabbitmqProducerApplicationTests.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java</url>
+          <line>69</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/RabbitConfig.java</url>
+          <line>177</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/RabbitConfig.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/ykq/demo/RabbitConfig.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/ykq/demo/RabbitConfig.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

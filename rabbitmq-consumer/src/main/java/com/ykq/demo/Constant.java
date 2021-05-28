@@ -29,6 +29,21 @@ public class Constant {
     public static String dlQueue;
     public static String dlExchange;
     public static String dlRouteKey;
+    public static String txToTxQueue;
+    public static String txToTxExchange;
+    public static String txToTxRouteKey;
+
+    public void setTxToTxQueue(String txToTxQueue) {
+        Constant.txToTxQueue = txToTxQueue;
+    }
+
+    public void setTxToTxExchange(String txToTxExchange) {
+        Constant.txToTxExchange = txToTxExchange;
+    }
+
+    public void setTxToTxRouteKey(String txToTxRouteKey) {
+        Constant.txToTxRouteKey = txToTxRouteKey;
+    }
 
     public void setDlQueue(String dlQueue) {
         Constant.dlQueue = dlQueue;

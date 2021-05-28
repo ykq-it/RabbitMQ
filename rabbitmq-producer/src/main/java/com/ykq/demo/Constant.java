@@ -1,6 +1,5 @@
 package com.ykq.demo;
 
-import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Configuration;
 
@@ -26,6 +25,36 @@ public class Constant {
     public static String fanoutQueue1;
     public static String fanoutQueue2;
     public static String fanoutExchange;
+    public static String dlQueue;
+    public static String dlExchange;
+    public static String dlRouteKey;
+    public static String txToTxQueue;
+    public static String txToTxExchange;
+    public static String txToTxRouteKey;
+
+    public void setTxToTxQueue(String txToTxQueue) {
+        Constant.txToTxQueue = txToTxQueue;
+    }
+
+    public void setTxToTxExchange(String txToTxExchange) {
+        Constant.txToTxExchange = txToTxExchange;
+    }
+
+    public void setTxToTxRouteKey(String txToTxRouteKey) {
+        Constant.txToTxRouteKey = txToTxRouteKey;
+    }
+
+    public void setDlQueue(String dlQueue) {
+        Constant.dlQueue = dlQueue;
+    }
+
+    public void setDlExchange(String dlExchange) {
+        Constant.dlExchange = dlExchange;
+    }
+
+    public void setDlRouteKey(String dlRouteKey) {
+        Constant.dlRouteKey = dlRouteKey;
+    }
 
     public void setFanoutQueue1(String fanoutQueue1) {
         Constant.fanoutQueue1 = fanoutQueue1;
