@@ -22,7 +22,7 @@ public class RabbitSender {
 
     public void sendTxQueue(String msg) {
         log.info(Constant.txToTxQueue + "：" + msg);
-        amqpTemplate.convertAndSend(Constant.txToTxExchange+'a', Constant.txToTxRouteKey+'a', msg);
+        amqpTemplate.convertAndSend(Constant.txToTxExchange, Constant.txToTxRouteKey, msg);
     }
 
     public void sendTxQueue1(String msg) {

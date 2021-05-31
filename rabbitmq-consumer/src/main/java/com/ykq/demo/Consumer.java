@@ -66,19 +66,32 @@ public class Consumer {
 
     /** 事务 */
     @RabbitListener(queues = "${mq.txToTxQueue}")
-    public void processDirect(String s, Channel channel, @Header(AmqpHeaders.DELIVERY_TAG) long tag) throws IOException {
-//        try{
-            log.info(Constant.txToTxQueue + ": " + s);
-            // TODO：接收到消息进行业务操作，操作成功，告诉mq该消息已经消费
-            // 执行业务操作，同一个数据不能处理两次，根据业务情况去重，保证幂等性。 （拓展：redis记录处理情况）
-            // 开启了手工确认机制，如果不加这个，项目重新启动，则改消息会被重新消费
-            // 异常的话，可以选择让它重新入列，或者丢弃
-//            channel.basicAck(tag,true);
-//        }catch (Exception e){
-            // 异常情况 :根据需要去： 重发/ 丢弃
-            // 重发一定次数后， 丢弃， 日志告警,b1:true表示重新入列，false表示不入列
-//            channel.basicNack(tag, false, true);
-            // 系统 关键数据，永远是有人工干预
+    public void processDirect(String s, Channel channel, @Header(AmqpHeaders.DELIVERY_TAG) long deliveryTag) throws Exception {
+        /* 基础ack验证 */
+//        log.info(Constant.txToTxQueue + ": " + s + "deliveryTag: " + deliveryTag);
+
+        /* 验证ack单条确认 */
+//        log.info(Constant.txToTxQueue + ": " + s + "deliveryTag: " + deliveryTag);
+//        channel.basicAck(deliveryTag, false);
+
+        /* 验证ack批量确认 */
+//        log.info(Constant.txToTxQueue + ": " + s + "deliveryTag: " + deliveryTag);
+//        if (5 == deliveryTag) {
+//            channel.basicAck(deliveryTag, true);
 //        }
+
+        /* 验证nack批量拒绝，且重回队列 */
+//        log.info(Constant.txToTxQueue + ": " + s + "deliveryTag: " + deliveryTag);
+//        if (5 == deliveryTag) {
+//            channel.basicNack(deliveryTag, true, true);
+//        }
+
+        /* 验证reject单条拒绝，且重回队列 */
+//        log.info(Constant.txToTxQueue + ": " + s + "deliveryTag: " + deliveryTag);
+//        channel.basicReject(deliveryTag, true);
+
+        /* AUTO ack验证异常重回队列 */
+//        log.info(Constant.txToTxQueue + ": " + s + "deliveryTag: " + deliveryTag);
+//        throw new Exception("运行时异常");
     }
 }
