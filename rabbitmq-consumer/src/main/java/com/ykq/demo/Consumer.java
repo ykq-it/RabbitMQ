@@ -1,6 +1,8 @@
 package com.ykq.demo;
 
 import com.rabbitmq.client.Channel;
+import com.rabbitmq.client.DeliverCallback;
+import com.rabbitmq.client.Delivery;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.amqp.support.AmqpHeaders;
@@ -50,6 +52,7 @@ public class Consumer {
 
     /** fanout */
     @RabbitListener(queues = "${mq.fanoutQueue1}")
+
     public void receive3(String s) {
         log.info(Constant.fanoutQueue1 + ": " + s);
     }

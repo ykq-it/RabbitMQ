@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42a9643f-27c9-4276-95b1-2ef7b712c308" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_05_26_10_10_AM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2021_05_26_10_10_AM__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-consumer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-consumer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/ykq/web/RabbitSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-producer/src/main/java/com/ykq/web/RabbitSender.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,19 +24,6 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <excluded-from-favorite>
-      <branch-storage>
-        <map>
-          <entry type="LOCAL">
-            <value>
-              <list>
-                <branch-info repo="$PROJECT_DIR$" source="master" />
-              </list>
-            </value>
-          </entry>
-        </map>
-      </branch-storage>
-    </excluded-from-favorite>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -65,7 +51,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../workspaceSupplier/shopping" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
@@ -99,7 +85,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="HTTP Request.generated-requests#21">
+  <component name="RunManager" selected="JUnit.RabbitSenderTest.sendTxQueue">
     <configuration name="generated-requests#21" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="21" runType="Run single request">
       <method v="2" />
     </configuration>
@@ -192,8 +178,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="HTTP Request.generated-requests#21" />
         <item itemvalue="JUnit.RabbitSenderTest.sendTxQueue" />
+        <item itemvalue="HTTP Request.generated-requests#21" />
         <item itemvalue="JUnit.RabbitmqProducerApplicationTests.send" />
         <item itemvalue="JUnit.RabbitmqProducerApplicationTests.send1" />
         <item itemvalue="JUnit.RabbitmqProducerApplicationTests.send5" />
@@ -213,7 +199,10 @@
       <workItem from="1621930478463" duration="11616000" />
       <workItem from="1621995376341" duration="9614000" />
       <workItem from="1622081535563" duration="24742000" />
-      <workItem from="1622428205142" duration="602000" />
+      <workItem from="1622428205142" duration="673000" />
+      <workItem from="1623310942054" duration="1400000" />
+      <workItem from="1624355964212" duration="4407000" />
+      <workItem from="1624845929079" duration="308000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1621854373294</created>
@@ -243,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1622188837307</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="消费端确认">
+      <created>1622439640762</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1622439640762</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,24 +262,25 @@
     <MESSAGE value="单播、多波、头、话题交换机的demo与特性，延迟投递、TTL、死信队列的验证" />
     <MESSAGE value="生产者确认" />
     <MESSAGE value="idea生成的文件" />
-    <option name="LAST_COMMIT_MESSAGE" value="idea生成的文件" />
+    <MESSAGE value="消费端确认" />
+    <option name="LAST_COMMIT_MESSAGE" value="消费端确认" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java</url>
-          <line>47</line>
+          <line>49</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java</url>
-          <line>57</line>
+          <line>60</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java</url>
-          <line>53</line>
+          <line>56</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -293,12 +290,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java</url>
-          <line>39</line>
+          <line>41</line>
           <option name="timeStamp" value="24" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java</url>
-          <line>30</line>
+          <line>32</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -328,7 +325,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/rabbitmq-consumer/src/main/java/com/ykq/demo/Consumer.java</url>
-          <line>89</line>
+          <line>92</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
       </breakpoints>
